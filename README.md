@@ -16,7 +16,7 @@ The entire election data is provided in JSON format. As YSK is still in the proc
 
 # Usage
   
-To scrutinize the data, clone this repository and navigate to the data directory to access the JSON files. Use the download-new-election-result.sh command to fetch the latest data updates.
+To scrutinize the data, clone this repository and navigate to the data directory to access the JSON files. Use the `download-new-election-result.sh` command to fetch the latest data updates.
 
 # Setup
 
@@ -53,5 +53,10 @@ Then, run the following command to install jq:
   
 Contributions are welcome! Feel free to submit a pull request or open an issue if you find any discrepancies in the data or have suggestions to improve the analysis.
 
+# Project Repository
+
+You can find the project on GitHub at [https://github.com/dataxtells/Elections-in-Turkiye](https://github.com/dataxtells/Elections-in-Turkiye).
+
 # License
-This project is licensed under the MIT License. See LICENSE for more information.
+
+This project is licensed under the GPLv3 License. See [LICENSE](https://github.com/dataxtells/Elections-in-Turkiye/blob/main/LICENSE) for more information.
