@@ -12,11 +12,42 @@ The data used in this repository originates from the Turkish government news age
 
 The preliminary dataset was fetched from Anadolu Ajansi's official website on May 15, 2024, at 23:02:59 PST. Potential inconsistencies can be investigated using the data/20230515-230259.3N-0700.json file.
 
-The entire election data is provided in JSON format. As YSK is still in the process of updating the data, you can access the latest information by downloading it using the download-new-election-result.sh command. This data will be subsequently stored in a file named data/<timestamp>.json.
+The entire election data is provided in JSON format. As YSK is still in the process of updating the data, you can access the latest information by downloading it using the `download-new-election-result.sh` command. This data will be subsequently stored in a file named data/<timestamp>.json.
 
 # Usage
   
 To scrutinize the data, clone this repository and navigate to the data directory to access the JSON files. Use the download-new-election-result.sh command to fetch the latest data updates.
+
+# Setup
+
+## Dependencies
+- zsh/bash
+- python3. pip3
+- jq
+
+## Install jq 
+
+To install jq on Linux, you can use the following commands:
+
+### Redhat based systems (Centos) 
+`yum install -y epel-release`
+`yum install -y jq`
+
+### Debian based systems 
+`apt install -y jq`
+
+### Mac
+
+To install `jq` on Mac, you can use Homebrew package manager. First, install Homebrew by running:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+Then, run the following command to install jq:
+`brew install jq`
+
+# Links to data sources
+
+- [Anadolu Ajansi](https://secim.aa.com.tr/)
+- [YSK](https://www.ysk.gov.tr/)
 
 # Contribute
   
